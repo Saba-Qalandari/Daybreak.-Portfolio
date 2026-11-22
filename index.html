@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#060a14">
+  <title>Saba Fatima | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!-- Shared gradient used by the skill rings -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#7fffd4"/>
+        <stop offset="55%" stop-color="#8b5cf6"/>
+        <stop offset="100%" stop-color="#ff5fa2"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <div class="progress" id="progress"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <img src="1.jpeg" alt="Logo">
+    </a>
+
+    <nav id="nav">
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="#contact" class="nav-btn">Hire Me</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+  </header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+  <div class="hero-bg" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+    <span class="grid-lines"></span>
+    <span class="big-word">Creative</span>
+    <i class="spark s1"></i>
+    <i class="spark s2"></i>
+    <i class="spark s3"></i>
+    <i class="spark s4"></i>
+    <i class="spark s5"></i>
+  </div>
+
+  <div class="hero-text">
+    <span class="hero-hello">Hello, I'm</span>
+    <h1>Saba <span>Fatima</span></h1>
+
+    <h2 class="role">
+      <span class="role-swap">
+        <span class="role-list">
+          <span>AI Image Creator</span>
+          <span>Presentation Designer</span>
+          <span>Data Entry Specialist</span>
+          <span>AI Image Creator</span>
+        </span>
+      </span>
+    </h2>
+
+    <p>
+      I design eye-catching AI visuals, polished presentations and bold posters,
+      and I keep your data clean and accurate. Reliable, punctual and detail-focused,
+      I help small businesses look professional online.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#contact" class="btn btn-fill">Hire Me <span class="arrow">&rarr;</span></a>
+      <a href="#portfolio" class="btn btn-line">View My Work</a>
+    </div>
+
+    <ul class="trust">
+      <li>Punctual</li>
+      <li>Organized</li>
+      <li>Quality-focused</li>
+    </ul>
+  </div>
+
+  <div class="hero-image">
+    <div class="orbit">
+
+      <svg class="ring-text" viewBox="0 0 400 400" aria-hidden="true">
+        <defs>
+          <path id="ringPath" d="M 30,200 a 170,170 0 1,1 340,0 a 170,170 0 1,1 -340,0"/>
+        </defs>
+        <text textLength="1062" lengthAdjust="spacing">
+          <textPath href="#ringPath">AI IMAGE CREATOR • PRESENTATION DESIGNER • DATA ENTRY • PHOTO EDITING • </textPath>
+        </text>
+      </svg>
+
+      <span class="orbit-ring" aria-hidden="true"></span>
+
+      <div class="photo-wrap">
+        <img src="1.jpeg" alt="Saba Fatima">
+      </div>
+    </div>
+
+    <div class="float-card card-1">
+      <span class="fc-icon">🤖</span>
+      <span><strong>AI Visuals</strong><small>Unique images from your ideas</small></span>
+    </div>
+
+    <div class="float-card card-2">
+      <span class="fc-icon">📽️</span>
+      <span><strong>Presentations</strong><small>Clear, polished slides</small></span>
+    </div>
+
+    <div class="badge-round">
+      <b>6</b>
+      <small>Services</small>
+    </div>
+  </div>
+
+  <a href="#services" class="scroll-cue" aria-label="Scroll to services"><span></span></a>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+  <div class="about-bg" aria-hidden="true">
+    <span class="ab-orb ab-orb-1"></span>
+    <span class="ab-orb ab-orb-2"></span>
+  </div>
+
+  <div class="about-wrap">
+
+    <div class="about-photo reveal">
+      <div class="ap-frame">
+        <img src="1.jpeg" alt="Saba Fatima, freelancer from Quetta, Balochistan">
+      </div>
+      <div class="ap-note">
+        <small>Based in</small>
+        <strong>Quetta, Balochistan</strong>
+      </div>
+    </div>
+
+    <div class="about-text reveal">
+      <span class="about-tag">About Me</span>
+      <h2>Careful work, <em>delivered on time</em></h2>
+
+      <p>
+        I'm Saba Fatima, a freelancer from Quetta, Balochistan. I work remotely
+        and help small businesses with data entry, presentation design, AI images
+        and posters, and photo editing.
+      </p>
+      <p>
+        I'm at the start of my freelance journey, so every project gets my full
+        attention. I reply to messages, keep to the deadline we agree on, and
+        check my work before I send it.
+      </p>
+
+      <ul class="ab-values">
+        <li>Punctual</li>
+        <li>Organized</li>
+        <li>Responsible</li>
+        <li>Quality-focused</li>
+      </ul>
+
+      <dl class="ab-facts">
+        <div>
+          <dt>Location</dt>
+          <dd>Quetta, Balochistan</dd>
+        </div>
+        <div>
+          <dt>Work style</dt>
+          <dd>Remote</dd>
+        </div>
+        <div>
+          <dt>I help with</dt>
+          <dd>Data entry, presentations, AI visuals, photo editing</dd>
+        </div>
+        <div>
+          <dt>Email</dt>
+          <dd><a href="mailto:azadsaba52@gmail.com">azadsaba52@gmail.com</a></dd>
+        </div>
+      </dl>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-fill">Work With Me <span class="arrow">&rarr;</span></a>
+        <a href="#portfolio" class="btn btn-line">See My Work</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="process reveal">
+    <h3>How I Work</h3>
+    <ol class="process-list">
+      <li>
+        <span class="p-num">01</span>
+        <h4>Understand</h4>
+        <p>You share your idea, files and deadline.</p>
+      </li>
+      <li>
+        <span class="p-num">02</span>
+        <h4>Draft</h4>
+        <p>I prepare a first version in your colors and style.</p>
+      </li>
+      <li>
+        <span class="p-num">03</span>
+        <h4>Refine</h4>
+        <p>You give feedback and I make the changes.</p>
+      </li>
+      <li>
+        <span class="p-num">04</span>
+        <h4>Deliver</h4>
+        <p>I check everything and send it on time.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section class="services" id="services">
+  <div class="services-head">
+    <span class="services-tag">What I Offer</span>
+    <h2>My Services</h2>
+    <p>Click on any service to see what's included.</p>
+  </div>
+
+  <div class="services-grid">
+
+    <div class="service-card" role="button" tabindex="0" aria-expanded="false">
+      <div class="s-icon">⌨️</div>
+      <h3>Data Entry &amp; Maintenance</h3>
+      <p class="s-short">Accurate, organized data, entered and kept up to date.</p>
+      <div class="details">
+        <ul>
+          <li>Typing and copying data into Excel or Google Sheets</li>
+          <li>Regular updating and cleanup of existing records</li>
+          <li>Removing duplicates and fixing errors</li>
+          <li>Careful double-checking before delivery</li>
+        </ul>
+        <span class="best-for">Best for: small businesses, shops, students</span>
+      </div>
+      <span class="hint"><span class="hint-closed">Click to view details</span><span class="hint-open">Click to close</span></span>
+    </div>
+
+    <div class="service-card" role="button" tabindex="0" aria-expanded="false">
+      <div class="s-icon">📣</div>
+      <h3>AI Poster Design</h3>
+      <p class="s-short">Bold, eye-catching posters created with AI tools.</p>
+      <div class="details">
+        <ul>
+          <li>Posters for events, sales and promotions</li>
+          <li>Social media and flyer designs</li>
+          <li>Your colors, text and style, applied consistently</li>
+          <li>Print-ready and screen-ready sizes</li>
+        </ul>
+        <span class="best-for">Best for: businesses, events, announcements</span>
+      </div>
+      <span class="hint"><span class="hint-closed">Click to view details</span><span class="hint-open">Click to close</span></span>
+    </div>
+
+    <div class="service-card" role="button" tabindex="0" aria-expanded="false">
+      <div class="s-icon">🤖</div>
+      <h3>AI Photo Generation</h3>
+      <p class="s-short">Unique, high-quality images made from your ideas.</p>
+      <div class="details">
+        <ul>
+          <li>Product and lifestyle visuals</li>
+          <li>Creative images for posts, ads and branding</li>
+          <li>Several variations to choose from</li>
+          <li>Prompts tailored to your brand's look</li>
+        </ul>
+        <span class="best-for">Best for: online sellers, creators, marketers</span>
+      </div>
+      <span class="hint"><span class="hint-closed">Click to view details</span><span class="hint-open">Click to close</span></span>
+    </div>
+
+    <div class="service-card" role="button" tabindex="0" aria-expanded="false">
+      <div class="s-icon">🖼️</div>
+      <h3>Photo Editing &amp; Retouching</h3>
+      <p class="s-short">Clean, polished photos that look professional.</p>
+      <div class="details">
+        <ul>
+          <li>Color correction and lighting fixes</li>
+          <li>Background removal and replacement</li>
+          <li>Portrait and product photo retouching</li>
+          <li>Resizing and formatting for any platform</li>
+        </ul>
+        <span class="best-for">Best for: portraits, products, social media</span>
+      </div>
+      <span class="hint"><span class="hint-closed">Click to view details</span><span class="hint-open">Click to close</span></span>
+    </div>
+
+    <div class="service-card" role="button" tabindex="0" aria-expanded="false">
+      <div class="s-icon">📽️</div>
+      <h3>Presentation Design</h3>
+      <p class="s-short">Clean slide decks that tell your story clearly.</p>
+      <div class="details">
+        <ul>
+          <li>Business, pitch and school presentations</li>
+          <li>Consistent layouts, fonts and colors</li>
+          <li>Visuals and icons that support your message</li>
+          <li>Delivered as PowerPoint or PDF</li>
+        </ul>
+        <span class="best-for">Best for: startups, teachers, freelancers</span>
+      </div>
+      <span class="hint"><span class="hint-closed">Click to view details</span><span class="hint-open">Click to close</span></span>
+    </div>
+
+    <div class="service-card" role="button" tabindex="0" aria-expanded="false">
+      <div class="s-icon">📑</div>
+      <h3>Spreadsheet &amp; Document Formatting</h3>
+      <p class="s-short">Messy files turned into neat, professional documents.</p>
+      <div class="details">
+        <ul>
+          <li>Formatting Word and PDF documents</li>
+          <li>Organizing spreadsheets with clear headings</li>
+          <li>Tables, lists and reports made easy to read</li>
+          <li>Fast turnaround with consistent quality</li>
+        </ul>
+        <span class="best-for">Best for: reports, records, office work</span>
+      </div>
+      <span class="hint"><span class="hint-closed">Click to view details</span><span class="hint-open">Click to close</span></span>
+    </div>
+
+  </div>
+</section>
+
+<!-- PORTFOLIO SECTION -->
+<section id="portfolio" class="portfolio">
+  <div class="pf-head">
+    <span class="pf-tag">My Work</span>
+    <h2>Portfolio</h2>
+    <p>Tap any image to view it larger.</p>
+  </div>
+
+  <div class="pf-filters" role="tablist">
+    <button class="pf-btn active" data-filter="all">All</button>
+    <button class="pf-btn" data-filter="ai">AI Photos</button>
+    <button class="pf-btn" data-filter="edit">Photo Editing</button>
+    <button class="pf-btn" data-filter="ppt">Presentations</button>
+  </div>
+
+  <div class="pf-grid">
+    <figure class="pf-item" data-cat="ai" tabindex="0">
+      <img src="meta-ad-1" alt="Custom merchandise ad">
+      <figcaption><strong>Custom Merchandise</strong><span>AI Photos</span></figcaption>
+    </figure>
+    <figure class="pf-item" data-cat="ai" tabindex="0">
+      <img src="meta-ad-2" alt="In-store essentials ad">
+      <figcaption><strong>In-Store Essentials</strong><span>AI Photos</span></figcaption>
+    </figure>
+    <figure class="pf-item" data-cat="edit" tabindex="0">
+      <img src="meta-ad-3" alt="Order online ad">
+      <figcaption><strong>Order Online</strong><span>Photo Editing</span></figcaption>
+    </figure>
+    <figure class="pf-item" data-cat="ai" tabindex="0">
+      <img src="meta-ad-4" alt="Stationery ad">
+      <figcaption><strong>Stationery</strong><span>AI Photos</span></figcaption>
+    </figure>
+    <figure class="pf-item" data-cat="edit" tabindex="0">
+      <img src="meta-ad-5" alt="Kitchen and storage ad">
+      <figcaption><strong>Kitchen &amp; Storage</strong><span>Photo Editing</span></figcaption>
+    </figure>
+    <figure class="pf-item" data-cat="edit" tabindex="0">
+      <img src="meta-ad-6" alt="New frames ad">
+      <figcaption><strong>New Frames</strong><span>Photo Editing</span></figcaption>
+    </figure>
+  </div>
+
+  <p class="pf-empty" id="pfEmpty" hidden>Presentations coming soon.</p>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+  <figure class="lb-figure">
+    <img id="lbImg" src="" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next">&#8250;</button>
+</div>
+
+<!-- SKILLS SECTION -->
+<section class="skills" id="skills">
+  <div class="skills-head">
+    <span class="skills-tag">My Expertise</span>
+    <h2>Skills &amp; Strengths</h2>
+    <p>What I'm good at, and how I work with clients.</p>
+  </div>
+
+  <div class="skills-wrap">
+
+    <!-- Core skills: glowing meters -->
+    <div class="sk-panel">
+      <h3>Core Skills</h3>
+
+      <div class="sk-item">
+        <div class="sk-top"><span>⌨️ Data Entry &amp; Maintenance</span><span class="sk-pct">0%</span></div>
+        <div class="sk-bar"><div class="sk-fill" data-level="95"></div></div>
+      </div>
+
+      <div class="sk-item">
+        <div class="sk-top"><span>🤖 AI Photo Generation</span><span class="sk-pct">0%</span></div>
+        <div class="sk-bar"><div class="sk-fill" data-level="90"></div></div>
+      </div>
+
+      <div class="sk-item">
+        <div class="sk-top"><span>📣 AI Poster Design</span><span class="sk-pct">0%</span></div>
+        <div class="sk-bar"><div class="sk-fill" data-level="88"></div></div>
+      </div>
+
+      <div class="sk-item">
+        <div class="sk-top"><span>🖼️ Photo Editing &amp; Retouching</span><span class="sk-pct">0%</span></div>
+        <div class="sk-bar"><div class="sk-fill" data-level="85"></div></div>
+      </div>
+
+      <div class="sk-item">
+        <div class="sk-top"><span>📽️ Presentation Design</span><span class="sk-pct">0%</span></div>
+        <div class="sk-bar"><div class="sk-fill" data-level="85"></div></div>
+      </div>
+
+      <div class="sk-item">
+        <div class="sk-top"><span>📑 Document Formatting</span><span class="sk-pct">0%</span></div>
+        <div class="sk-bar"><div class="sk-fill" data-level="90"></div></div>
+      </div>
+    </div>
+
+    <!-- Work strengths: glowing rings -->
+    <div class="sk-panel">
+      <h3>Work Strengths</h3>
+
+      <div class="sk-rings">
+        <div class="sk-ring" data-level="95">
+          <div class="ring-box">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+              <circle class="ring-track" cx="50" cy="50" r="44"></circle>
+              <circle class="ring-fill" cx="50" cy="50" r="44"></circle>
+            </svg>
+            <span class="ring-pct">0%</span>
+          </div>
+          <p>Punctuality</p>
+        </div>
+
+        <div class="sk-ring" data-level="92">
+          <div class="ring-box">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+              <circle class="ring-track" cx="50" cy="50" r="44"></circle>
+              <circle class="ring-fill" cx="50" cy="50" r="44"></circle>
+            </svg>
+            <span class="ring-pct">0%</span>
+          </div>
+          <p>Responsibility</p>
+        </div>
+
+        <div class="sk-ring" data-level="90">
+          <div class="ring-box">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+              <circle class="ring-track" cx="50" cy="50" r="44"></circle>
+              <circle class="ring-fill" cx="50" cy="50" r="44"></circle>
+            </svg>
+            <span class="ring-pct">0%</span>
+          </div>
+          <p>Organization</p>
+        </div>
+
+        <div class="sk-ring" data-level="94">
+          <div class="ring-box">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+              <circle class="ring-track" cx="50" cy="50" r="44"></circle>
+              <circle class="ring-fill" cx="50" cy="50" r="44"></circle>
+            </svg>
+            <span class="ring-pct">0%</span>
+          </div>
+          <p>Quality Work</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tools: two moving rows (the script duplicates each row so it loops smoothly) -->
+  <div class="sk-tools">
+    <h3>Tools I Work With</h3>
+
+    <div class="sk-marquee">
+      <div class="mq-track">
+        <span>Microsoft Excel</span>
+        <span>Google Sheets</span>
+        <span>Microsoft Word</span>
+        <span>PowerPoint</span>
+        <span>AI Image Tools</span>
+        <span>Photo Editing Apps</span>
+      </div>
+    </div>
+
+    <div class="sk-marquee reverse">
+      <div class="mq-track">
+        <span>Fast turnaround</span>
+        <span>Clean, checked files</span>
+        <span>Your brand colors</span>
+        <span>Clear communication</span>
+        <span>Remote-ready</span>
+        <span>Deadlines kept</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+  <div class="contact-head">
+    <span class="contact-tag">Let's Work Together</span>
+    <h2>Contact Me</h2>
+    <p>Have a project in mind? Send me a message and I'll get back to you.</p>
+  </div>
+
+  <div class="contact-wrap">
+
+    <div class="contact-info">
+      <h3>Get In Touch</h3>
+      <p class="ci-intro">
+        I'm Saba Fatima, a remote freelancer. Reach out for data entry,
+        AI posters and photos, photo editing or presentation design.
+      </p>
+
+      <a href="mailto:azadsaba52@gmail.com" class="c-card">
+        <span class="c-icon">✉️</span>
+        <span class="c-text">
+          <small>Email</small>
+          <strong>azadsaba52@gmail.com</strong>
+        </span>
+      </a>
+
+      <a href="tel:34324884643" class="c-card">
+        <span class="c-icon">📞</span>
+        <span class="c-text">
+          <small>Contact Number</small>
+          <strong>34324884643</strong>
+        </span>
+      </a>
+
+      <div class="c-card c-static">
+        <span class="c-icon">📍</span>
+        <span class="c-text">
+          <small>Location</small>
+          <strong>Pakistan (Working Remotely)</strong>
+        </span>
+      </div>
+
+      <button type="button" class="copy-btn" id="copyEmail">Copy Email Address</button>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <h3>Send a Message</h3>
+
+      <div class="field">
+        <label for="cName">Your Name</label>
+        <input type="text" id="cName" placeholder="Enter your name" required>
+      </div>
+
+      <div class="field">
+        <label for="cEmail">Your Email</label>
+        <input type="email" id="cEmail" placeholder="Enter your email" required>
+      </div>
+
+      <div class="field">
+        <label for="cSubject">Subject</label>
+        <input type="text" id="cSubject" placeholder="e.g. Poster design project">
+      </div>
+
+      <div class="field">
+        <label for="cMessage">Message</label>
+        <textarea id="cMessage" rows="5" placeholder="Tell me about your project..." required></textarea>
+      </div>
+
+      <button type="submit" class="send-btn">Send Message</button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-wrap">
+
+    <div class="f-col f-brand">
+      <a href="#home" class="f-logo">Saba <span>Fatima</span></a>
+      <p>
+        Remote freelancer helping small businesses look professional with
+        AI visuals, polished presentations and accurate data work.
+      </p>
+    </div>
+
+    <div class="f-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="f-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Data Entry &amp; Maintenance</a></li>
+        <li><a href="#services">AI Poster Design</a></li>
+        <li><a href="#services">AI Photo Generation</a></li>
+        <li><a href="#services">Photo Editing</a></li>
+        <li><a href="#services">Presentation Design</a></li>
+      </ul>
+    </div>
+
+    <div class="f-col">
+      <h4>Get In Touch</h4>
+      <ul class="f-contact">
+        <li><a href="mailto:azadsaba52@gmail.com">✉️ azadsaba52@gmail.com</a></li>
+        <li><a href="tel:34324884643">📞 34324884643</a></li>
+        <li><span>📍 Pakistan (Remote)</span></li>
+      </ul>
+      <a href="#contact" class="f-btn">Hire Me</a>
+    </div>
+
+  </div>
+
+  <div class="f-bottom">
+    <p>&copy; <span id="year"></span> Saba Fatima. All rights reserved.</p>
+    <p>Remote Freelancer | Data Entry | AI Image Creator | Presentation Designer</p>
+  </div>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">&#8593;</button>
+</footer>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const canHover = window.matchMedia("(hover: hover)").matches;
+
+  /* 1. Reveal on scroll */
+  const reveals = document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.05 });
+    reveals.forEach((el) => io.observe(el));
+  } else {
+    reveals.forEach((el) => el.classList.add("in"));
+  }
+
+  /* 2. Mobile menu */
+  const menuBtn = $("menuBtn"), nav = $("nav");
+  if (menuBtn && nav) {
+    menuBtn.addEventListener("click", () => nav.classList.toggle("open"));
+    nav.querySelectorAll("a").forEach((l) =>
+      l.addEventListener("click", () => nav.classList.remove("open")));
+  }
+
+  /* 3. Service cards: open/close */
+  document.querySelectorAll(".service-card").forEach((card) => {
+    const toggle = () => {
+      const open = card.classList.toggle("active");
+      card.setAttribute("aria-expanded", open);
+    };
+    card.addEventListener("click", toggle);
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); }
+    });
+  });
+
+  /* 4. Spotlight that follows the cursor on cards and panels */
+  document.querySelectorAll(".service-card, .sk-panel").forEach((el) => {
+    el.addEventListener("pointermove", (e) => {
+      const r = el.getBoundingClientRect();
+      el.style.setProperty("--mx", (e.clientX - r.left) + "px");
+      el.style.setProperty("--my", (e.clientY - r.top) + "px");
+    });
+    el.addEventListener("pointerleave", () => {
+      el.style.setProperty("--mx", "-400px");
+      el.style.setProperty("--my", "-400px");
+    });
+  });
+
+  /* 5. Portfolio: filter */
+  const items = Array.from(document.querySelectorAll(".pf-item"));
+  const empty = $("pfEmpty");
+  const btns  = document.querySelectorAll(".pf-btn");
+  const visibleItems = () => items.filter((i) => !i.hidden && !i.classList.contains("pf-missing"));
+  const updateEmpty  = () => { if (empty) empty.hidden = visibleItems().length > 0; };
+
+  items.forEach((item) => {
+    const img = item.querySelector("img");
+    const miss = () => { item.classList.add("pf-missing"); updateEmpty(); };
+    img.addEventListener("error", miss);
+    if (img.complete && img.naturalWidth === 0) miss();
+  });
+
+  btns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      btns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      const f = btn.dataset.filter;
+      items.forEach((item) => { item.hidden = !(f === "all" || item.dataset.cat === f); });
+      updateEmpty();
+    });
+  });
+  updateEmpty();
+
+  /* 6. Portfolio: 3D tilt on hover (mouse devices only) */
+  if (canHover && !reduceMotion) {
+    items.forEach((item) => {
+      item.addEventListener("pointermove", (e) => {
+        const r = item.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5;
+        const y = (e.clientY - r.top) / r.height - 0.5;
+        item.style.transform =
+          "perspective(900px) rotateY(" + (x * 10) + "deg) rotateX(" + (-y * 10) + "deg) translateY(-6px) scale(1.02)";
+      });
+      item.addEventListener("pointerleave", () => { item.style.transform = ""; });
+    });
+  }
+
+  /* 7. Lightbox */
+  const lb = $("lightbox"), lbImg = $("lbImg"), lbCap = $("lbCap");
+  let list = [], idx = 0;
+
+  function show(i) {
+    idx = (i + list.length) % list.length;
+    const item = list[idx], img = item.querySelector("img");
+    lbImg.src = img.currentSrc || img.src;
+    lbImg.alt = img.alt;
+    lbCap.textContent = item.querySelector("figcaption").textContent;
+  }
+  function open(item) {
+    list = visibleItems();
+    lb.hidden = false;
+    document.body.style.overflow = "hidden";
+    show(list.indexOf(item));
+  }
+  function close() { lb.hidden = true; document.body.style.overflow = ""; }
+
+  if (lb) {
+    items.forEach((item) => {
+      item.addEventListener("click", () => open(item));
+      item.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(item); }
+      });
+    });
+    $("lbClose").addEventListener("click", close);
+    $("lbPrev").addEventListener("click", () => show(idx - 1));
+    $("lbNext").addEventListener("click", () => show(idx + 1));
+    lb.addEventListener("click", (e) => { if (e.target === lb) close(); });
+    document.addEventListener("keydown", (e) => {
+      if (lb.hidden) return;
+      if (e.key === "Escape") close();
+      if (e.key === "ArrowLeft") show(idx - 1);
+      if (e.key === "ArrowRight") show(idx + 1);
+    });
+  }
+
+  /* 8. Skills: bars, rings and counters animate when scrolled into view */
+  const CIRC = 276.5;
+
+  function countUp(el, to, ms) {
+    if (reduceMotion) { el.textContent = to + "%"; return; }
+    const start = performance.now();
+    (function tick(now) {
+      const p = Math.min((now - start) / ms, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(to * eased) + "%";
+      if (p < 1) requestAnimationFrame(tick);
+    })(start);
+  }
+
+  function runSkills() {
+    document.querySelectorAll(".sk-item").forEach((item, i) => {
+      const fill = item.querySelector(".sk-fill");
+      const pct = item.querySelector(".sk-pct");
+      const level = +fill.dataset.level;
+      setTimeout(() => {
+        fill.style.width = level + "%";
+        countUp(pct, level, 1800);
+      }, i * 120);
+    });
+    document.querySelectorAll(".sk-ring").forEach((ring, i) => {
+      const fill = ring.querySelector(".ring-fill");
+      const pct = ring.querySelector(".ring-pct");
+      const level = +ring.dataset.level;
+      setTimeout(() => {
+        fill.style.strokeDashoffset = CIRC * (1 - level / 100);
+        countUp(pct, level, 2000);
+      }, 200 + i * 150);
+    });
+  }
+
+  const skills = $("skills");
+  if (skills && "IntersectionObserver" in window) {
+    const so = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) { runSkills(); so.disconnect(); }
+    }, { threshold: 0.2 });
+    so.observe(skills);
+  } else {
+    runSkills();
+  }
+
+  /* 9. Tools marquee: duplicate each row for a seamless loop */
+  document.querySelectorAll(".mq-track").forEach((track) => {
+    Array.from(track.children).forEach((c) => {
+      const clone = c.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      track.appendChild(clone);
+    });
+  });
+
+  /* 10. Contact: copy email + form */
+  const copyBtn = $("copyEmail");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", () => {
+      const email = "azadsaba52@gmail.com";
+      const done = () => {
+        copyBtn.textContent = "Copied!";
+        setTimeout(() => (copyBtn.textContent = "Copy Email Address"), 2000);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(email).then(done).catch(done);
+      } else { done(); }
+    });
+  }
+
+  const form = $("contactForm"), status = $("formStatus");
+  if (form) {
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const name = $("cName"), mail = $("cEmail"), subj = $("cSubject"), msg = $("cMessage");
+      let ok = true;
+      [name, mail, msg].forEach((f) => {
+        const bad = !f.value.trim() || (f.type === "email" && !/^\S+@\S+\.\S+$/.test(f.value));
+        f.parentElement.classList.toggle("error", bad);
+        if (bad) ok = false;
+      });
+      if (!ok) {
+        status.className = "form-status bad";
+        status.textContent = "Please fill in your name, a valid email and your message.";
+        return;
+      }
+      const body = "Name: " + name.value + "\nEmail: " + mail.value + "\n\n" + msg.value;
+      window.location.href = "mailto:azadsaba52@gmail.com?subject=" +
+        encodeURIComponent(subj.value || "Project inquiry") + "&body=" + encodeURIComponent(body);
+      status.className = "form-status ok";
+      status.textContent = "Opening your email app to send the message.";
+      form.reset();
+    });
+  }
+
+  /* 11. Footer year, back-to-top, scroll progress, active nav link */
+  const year = $("year");
+  if (year) year.textContent = new Date().getFullYear();
+
+  const toTop = $("toTop"), bar = $("progress");
+  if (toTop) toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+  const links = Array.from(document.querySelectorAll(".nav-links a"));
+  const sections = links.map((a) => document.querySelector(a.getAttribute("href"))).filter(Boolean);
+
+  function onScroll() {
+    const h = document.documentElement;
+    const max = h.scrollHeight - h.clientHeight;
+    if (bar) bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + "%";
+    if (toTop) toTop.classList.toggle("show", h.scrollTop > 500);
+
+    const y = h.scrollTop + 140;
+    let current = sections[0];
+    sections.forEach((s) => { if (s.offsetTop <= y) current = s; });
+    links.forEach((a) => a.classList.toggle("active", current && a.getAttribute("href") === "#" + current.id));
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+
+  /* 12. Soft glow that follows the mouse (desktop only) */
+  const glow = $("cursorGlow");
+  if (glow && canHover && !reduceMotion) {
+    window.addEventListener("pointermove", (e) => {
+      glow.style.opacity = 1;
+      glow.style.transform = "translate(" + e.clientX + "px," + e.clientY + "px)";
+    }, { passive: true });
+    document.addEventListener("pointerleave", () => (glow.style.opacity = 0));
+  }
+})();
+</script>
+</body>
+</html>
